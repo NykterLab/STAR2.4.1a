@@ -59,16 +59,14 @@ Stage: build
 
 
 %labels
-   Author "tomi.hakkinen@tuni.fi and francesco.tabaro@tuni.fi"
+   Author "sofia.randelin@tuni.fi, tomi.hakkinen@tuni.fi and francesco.tabaro@tuni.fi"
    Version 0.29
 
 %environment
 #    GLOBAL=variables
 #    AVAILABLE="to all apps"
-   export PATH=$PATH:/usr/bin:/usr/local/bin/homer/bin:/opt/ucsc_tools:/opt/Bismark-0.22.3
    LANG="en_US.UTF-8"
    export LANG
-   PYTHONWARNINGS=ignore::yaml.YAMLLoadWarning
 
 # ######################### STAR ###################################
 
