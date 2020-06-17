@@ -30,7 +30,8 @@ Stage: build
      xz xz-devel libcurl libcurl-devel ncurses ncurses-devel \
      unzip wget gnuplot rsync java-1.8.0-openjdk java-1.8.0-openjdk-devel \
      openssl-devel libffi-devel python36-devel
-
+   dnf -y install vim vim-common
+   
    ln -s /usr/bin/python3 /usr/bin/python
    ln -s /usr/bin/pip3 /usr/bin/pip
 
